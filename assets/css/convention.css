@@ -1,0 +1,106 @@
+.convention .container__inner {
+  padding: 0 0 0 10px; }
+  @media (max-width: 1220px) {
+    .convention .container__inner {
+      padding: 0 20px; } }
+
+.convention {
+  padding: 109px 0 12px 0; }
+  .convention__title {
+    font-family: "Montserrat";
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 2.5rem;
+    letter-spacing: -1.5px;
+    color: #2d2c2c;
+    text-align: center;
+    margin: 0 10px 12px 0; }
+    .convention__title-person {
+      font-family: "Montserrat";
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 1.6rem;
+      letter-spacing: -1px;
+      color: #2b2b2b; }
+    .convention__title-person2 {
+      font-family: "Open Sans";
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 1.8rem;
+      color: #4a4a4a;
+      margin: 0 0 10px 0; }
+  .convention__subtitle {
+    position: relative;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 0.9rem;
+    color: #a7a7a7;
+    text-align: center;
+    margin: 0 10px 30px 0; }
+    .convention__subtitle::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: -12px;
+      width: 6.5%;
+      height: 1px;
+      background: #db3333;
+      margin: 0 auto; }
+  .convention__text {
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.8rem;
+    color: #878787;
+    margin: 0 0 10px 0; }
+    .convention__text-list {
+      margin: -10px 0 0 0; }
+      .convention__text-list_second {
+        padding: 0 0 10px 0; }
+    .convention__text-pt {
+      margin: 0 0 0 0; }
+  .convention__email {
+    color: #db3333; }
+  .convention__link {
+    position: relative;
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 700;
+    width: 100%;
+    display: block;
+    max-width: 92px;
+    margin: 0 auto;
+    color: #fff;
+    background: #ebce23;
+    background: -webkit-gradient(linear, left top, right top, from(#ebce23), to(#dfa131));
+    background: -o-linear-gradient(left, #ebce23 0%, #dfa131 100%);
+    background: linear-gradient(90deg, #ebce23 0%, #dfa131 100%);
+    padding: 15px 30px;
+    border-radius: 22px;
+    -webkit-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear; }
+    .convention__link:hover {
+      opacity: 0.9;
+      max-width: 105px; }
+    .convention__link:hover .convention__link-icon {
+      opacity: 1; }
+    .convention__link-icon {
+      width: 15px;
+      height: 15px;
+      position: absolute;
+      top: 12px;
+      right: 12px;
+      opacity: 0;
+      z-index: -1;
+      -webkit-transition: all .2s linear;
+      -o-transition: all .2s linear;
+      transition: all .2s linear; }
+
+#convention__link-icon {
+  width: 15px;
+  height: 15px;
+  fill: #fff; }
